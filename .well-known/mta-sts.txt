@@ -1,5 +1,9 @@
 version: STSv1
-mode: [enforce|testing|none] # 1. Decide your mode.
-mx: mx1.your_domain.tld      # 2. Add your primary mailserver hostname (see MX records in your DNS)
-mx: mx2.your_domain.tld      # 3. If you have secondary mailservers, add one line for each.
-max_age: 604800              # 4. Depending on your mode above, 604800 seconds = 1 week might be a good value.
+mode: testing
+mx: ALT2.ASPMX.L.GOOGLE.COM
+mx: ASPMX4.GOOGLEMAIL.COM
+mx: ASPMX2.GOOGLEMAIL.COM
+mx: ASPMX.L.GOOGLE.COM
+mx: ALT1.ASPMX.L.GOOGLE.COM
+mx: ASPMX3.GOOGLEMAIL.COM
+max_age: 604800
