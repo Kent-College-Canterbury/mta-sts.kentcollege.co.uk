@@ -1,9 +1,4 @@
 version: STSv1
 mode: testing
-mx: ALT2.ASPMX.L.GOOGLE.COM
-mx: ASPMX4.GOOGLEMAIL.COM
-mx: ASPMX2.GOOGLEMAIL.COM
-mx: ASPMX.L.GOOGLE.COM
-mx: ALT1.ASPMX.L.GOOGLE.COM
-mx: ASPMX3.GOOGLEMAIL.COM
+mx: *.mail.protection.outlook.com
 max_age: 604800
